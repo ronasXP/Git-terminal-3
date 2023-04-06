@@ -1,0 +1,20 @@
+   84  cat wilders.csv | grep "France" | grep "2019" | grep "PHP" | wc -l > php_france_2019.csv
+   85  rm php_france_2019.csv 
+   86  rm javascript_biarritz_toulouse.csv 
+   87  grep "PHP;France;2019" < wilders.csv | wc -l > php_france_2019.csv
+   88  cat php_france_2019.csv 
+   89  $ grep "PHP ; France ; 2019" < wilders.csv | wc -l > php_france_2019.csv
+   90  $ cat wilders.csv | grep "PHP;France;2019" | wc -l > php_france_2019.csv
+   91  clean
+   92  cat wilders.csv | grep "PHP" | grep "France" | grep "2019" | wc -1 > php_france_2019
+   93  cat wilders.csv | grep "PHP" | grep "France" | grep "2019" | wc -l> php_france_2019
+   94  cat php_france_2019 
+   95  clear
+   96  cat wilders.csv | grep "PHP" | grep "France" | grep "2019" | wc -l > php_france_2019.csv
+   97  cat php_france_2019
+   98  rm php_france_2019.csv 
+   99  cat wilders.csv | grep "PHP" | grep "France" | grep "2019" | wc -l > php_france_2019.csv
+  100  cat wilders.csv | grep "Biarritz\|Toulouse" | grep "JavaScript" > javascript_biarritz_toulouse.csv
+  101  cat javascript_biarritz_toulouse.csv 
+  102  history | tail -n 5
+  103  history | tail -n 20 > history.txt
